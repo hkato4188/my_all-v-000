@@ -9,7 +9,7 @@ def my_all?(collection)
     i += 1
     end
 
-  if new_array.include?("false")
+  if new_array.include?(false)
     false
   else
     true
